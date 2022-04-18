@@ -1,0 +1,20 @@
+Binary search is an algorithm to search a specific element in an Array.
+While brute forcing we use all the elements we pick from one side.
+But if an array is sorted, then picking from middle element is going to eliminate half of the elements.
+
+complexity:
+    linear search will take cN time and c' space
+    so time complexity is O(N) and space complexity O(1)
+    Binary search will take cN/2 time
+
+array = [1,2,3,4,5,6,7,8,9,10]
+quary = 7
+algorithm is:
+    if query == array[middle]: // middle is 5
+        return middle 
+    elif query > array[middle]: // 7>5
+        eliminate first half of array
+        and repeat process from if
+    else:
+        eliminate last half of array
+        and repeat process from if

@@ -1,0 +1,1 @@
+A sorted N cards and B have to find Q card from N cards.
